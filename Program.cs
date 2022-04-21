@@ -7,7 +7,7 @@ Me interesa guardar:
 
 Que quiero que haga el programa:
 
-- Leer el archivo de resultado y guardalor en un vector en memoria
+- Leer el archivo de resultados del evento de iRacing y guardalor en un vector en memoria
 - Leer el archivo de pilotos PRO y AM
 - Recorrer el vector y ordenar los resultados en PRO y AM
 - Otorgar Puntos de la carrera 
@@ -24,7 +24,7 @@ Flujo:
 4. separo los resultados en Pro y Am
    Los imprimo
 
-5.    
+5. Otorgar puntos de la carrera   
 
 Puntos:
 1  80
@@ -109,7 +109,6 @@ namespace ProgramaMDS
             }    //cierro for
 
           i++; 
-
         }  // cierra el foreach
 
         
@@ -119,8 +118,5 @@ namespace ProgramaMDS
 
         } //cierra el Void main
     } //Cierra la clase main
-
-
-
 } //cierra el program
 

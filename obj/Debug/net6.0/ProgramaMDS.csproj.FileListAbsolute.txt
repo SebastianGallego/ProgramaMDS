@@ -1,0 +1,15 @@
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\bin\Debug\net6.0\ProgramaMDS.exe
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\bin\Debug\net6.0\ProgramaMDS.deps.json
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\bin\Debug\net6.0\ProgramaMDS.runtimeconfig.json
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\bin\Debug\net6.0\ProgramaMDS.dll
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\bin\Debug\net6.0\ProgramaMDS.pdb
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.AssemblyInfoInputs.cache
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.AssemblyInfo.cs
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.dll
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\refint\ProgramaMDS.dll
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.pdb
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ProgramaMDS.genruntimeconfig.cache
+C:\Users\sebas\OneDrive\Documentos\ProgramaMDS\obj\Debug\net6.0\ref\ProgramaMDS.dll
