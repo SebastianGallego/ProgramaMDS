@@ -26,23 +26,27 @@ Flujo:
 
 5. Otorgar puntos de la carrera   
 
-Puntos:
-1  80
-2  67
-3  57
-4  50
-5  44
-6  40
-7  37
-8  34
-9  32
-10 30
-11 28
-12 26
-13 24
-
-
-
+Puntos:   puntaje {0,30,26,23,21,19,17,15,13,11,12,10,9,8,7,6,5,4,3,2,1}
+1  30
+2  26
+3  23
+4  21
+5  19
+6  17
+7  15
+8  13
+9  11
+10 12
+11 10
+12 9
+13 8
+14 7
+15 6
+16 5
+17 4
+18 3
+19 2 
+20 1
 */
 
 using System;
@@ -56,12 +60,20 @@ namespace ProgramaMDS
          {
            public int posicion;
            public string categoria;
-           public string piloto;     
+           public string piloto; 
+
+           public int puntos;     
          }
 
         public static void Main(string[] args)
         {
         string[] lineas = File.ReadAllLines("./resultados.csv");    //Leo Result y guardo todas las filas en un array de string "lineas"
+
+        int[] puntaje = new int[] {0,30,26,23,21,19,17,15,13,11,12,10,9,8,7,6,5,4,3,2,1}; //tabla de puntales del [1] al [20]
+
+
+
+
 
         Resultados[] vectResultados = new Resultados[lineas.Length];
 
@@ -92,7 +104,7 @@ namespace ProgramaMDS
                   vectResultados[i].piloto=strPiloto;
                   vectResultados[i].posicion=posPro;
                   vectResultados[i].categoria="Pro";
-                  //Console.WriteLine(vectResultados[i].categoria + " - " + posPro + " - " + vectResultados[i].piloto);
+                  vectResultados[i].puntos=puntaje[posPro];
                   posPro++;
               }  //cierro if 
             }    //cierro for
@@ -103,7 +115,7 @@ namespace ProgramaMDS
                   vectResultados[i].piloto=strPiloto;
                   vectResultados[i].posicion=posAm;
                   vectResultados[i].categoria="Am";
-                  //Console.WriteLine(vectResultados[i].categoria + " - " + posAm + " - " + vectResultados[i].piloto);
+                  vectResultados[i].puntos=puntaje[posAm];
                   posAm++;
               }  //cierro if 
             }    //cierro for
@@ -113,7 +125,7 @@ namespace ProgramaMDS
 
         
          for(i=0; i<lineas.Length;++i){
-          Console.WriteLine(vectResultados[i].categoria + " - " + vectResultados[i].posicion + " - " + vectResultados[i].piloto);
+          Console.WriteLine(vectResultados[i].categoria + " - " + vectResultados[i].posicion + " - " + vectResultados[i].piloto + " - " + vectResultados[i].puntos + " ptos");
          }
 
         } //cierra el Void main
